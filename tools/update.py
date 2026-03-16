@@ -7,7 +7,6 @@ from datetime import datetime
 SOURCES = {
   "renfeld":   "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip",
   "cercanias": "https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip",
-  "feve":      "https://data.renfe.com/dataset/5f80afa2-798c-46a4-8f96-bca0835b3cf0/resource/e593b825-78c2-45e1-a8ca-9fbea2f3faff/download/horarios-feve.zip",
 }
 
 def latest_zip(basename):
